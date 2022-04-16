@@ -1,0 +1,27 @@
+div{
+    background-color: #1d3557;
+    
+}
+
+#logoAp{
+    width: 100px;
+}
+
+#logoSocial{
+    float:right;
+    margin: 15px 5px 0 5px;
+    width: 30px;
+}
+
+#linkedin{
+    float:right;
+    margin: 0 -10px 0px 0px;
+    width: 57px;
+}
+
+#login{
+    float: right;
+    margin: 10px 10px 0 10px;
+    background-color: white;
+    color: #1d3557;
+}
