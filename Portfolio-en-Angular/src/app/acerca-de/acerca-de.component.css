@@ -7,11 +7,24 @@ div{
     color: #f1faee;
 }
 
-#fotoPerfil{
-    border:5px solid #f1faee;
-    border-radius: 10%;
+@media(min-width: 576px){
+    
+    #fotoPerfil{
+        position: absolute; 
+        width: 13%;
+        top: 37.5%;
+        border: 5px solid #f1faee;
+        border-radius: 10%;
+    }    
 }
+@media (max-width:575px){
 
+    #fotoPerfil{
+        width: 60%;
+        border: 5px solid #f1faee;
+        border-radius: 10%;
+    }
+}
 #titulo{
     font-weight: bold;
     font-size: 200%;
