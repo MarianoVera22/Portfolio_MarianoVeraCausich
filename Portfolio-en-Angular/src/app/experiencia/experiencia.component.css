@@ -1,7 +1,11 @@
-#experiencia{
-    padding: 0 100px 0 70px;
-    color: #f1faee;  
-    background-color: #457b9d;
+.row{
+    padding: 30px;
+    
+}
+
+div{
+    color: #1d3557;  
+    background-color: #f1faee;
     
    
 }
@@ -9,5 +13,19 @@
 h3{
     display: inline;
 }
+
+@media(min-width: 576px){
+    
+    #experiencia-img{
+        max-width: 70%;
+
+    }    
+}
+@media (max-width:575px){
+
+    #experiencia-img{
+        width: 30%;
+    } 
+}   
 
 

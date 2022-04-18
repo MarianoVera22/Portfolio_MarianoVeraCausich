@@ -1,10 +1,12 @@
 .row{
     padding: 30px;
+    
 }
 
 div{
-    background-color: #457b9d;
-    color: #f1faee;
+    background-color: #f1faee;
+    color: #1d3557;
+     /* border: 1px solid red;  */
 }
 
 #tituloDiv{
@@ -14,21 +16,30 @@ div{
 @media(min-width: 576px){
     
     #fotoPerfil{
-        position: absolute; 
-        width: 13%;
-        top: 18%;
-        left: 7.5%;
-        border: 2px solid #f1faee;
-        border-radius: 5%;
+        max-width: 17%;
+        border: 3px solid #1d3557;
+ 
     }    
 }
 @media (max-width:575px){
 
     #fotoPerfil{
-        text-align: center;
         width: 60%;
-        border: 2px solid #f1faee;
-        border-radius: 5%;
+        border: 3px solid #1d3557;
     } 
-} 
+}   
+
+@media(min-width: 576px){
+    
+    #acerca-mi{
+        max-width: 70%;
+    }    
+}
+@media (max-width:575px){
+
+    #acerca-mi{
+        width: 30%;
+    } 
+}   
+
 
