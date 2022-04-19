@@ -1,12 +1,28 @@
-#educacion{
-    padding: 0 100px 0 70px;
+.row{
+    padding: 30px;
     color: #1d3557;  
     background-color: #f1faee;
+}
+
+@media(min-width: 576px){
     
-   
-}
+    #educacion-img{
+        max-width: 70%;
+        border: 2px solid #1d3557;  
+        border-radius: 5%;
 
-h3{
-    display: inline;
+    }    
 }
+@media (max-width:575px){
 
+    #educacion-img{
+        width: 30%;
+        border: 2px solid #1d3557;  
+        border-radius: 5%;
+    } 
+}   
+
+#fecha{
+    font-size: larger;
+    font-style: italic;
+}

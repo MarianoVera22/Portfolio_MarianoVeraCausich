@@ -1,12 +1,12 @@
 .row{
     padding: 30px;
-    
 }
 
 div{
     background-color: #f1faee;
     color: #1d3557;
-     /* border: 1px solid red;  */
+    
+     
 }
 
 #tituloDiv{
@@ -33,13 +33,19 @@ div{
     
     #acerca-mi{
         max-width: 70%;
+        border: 2px solid #1d3557;  
+     border-radius: 5%;
     }    
 }
 @media (max-width:575px){
 
     #acerca-mi{
         width: 30%;
+        border: 2px solid #1d3557;  
+     border-radius: 5%;
     } 
 }   
+
+
 
 
