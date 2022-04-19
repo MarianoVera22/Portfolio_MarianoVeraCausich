@@ -1,5 +1,6 @@
 .row{
     padding: 30px;
+    /* border: 1px solid red */
 }
 
 div{
@@ -29,22 +30,7 @@ div{
     } 
 }   
 
-@media(min-width: 576px){
-    
-    #acerca-mi{
-        max-width: 70%;
-        border: 2px solid #1d3557;  
-     border-radius: 5%;
-    }    
-}
-@media (max-width:575px){
 
-    #acerca-mi{
-        width: 30%;
-        border: 2px solid #1d3557;  
-     border-radius: 5%;
-    } 
-}   
 
 
 
