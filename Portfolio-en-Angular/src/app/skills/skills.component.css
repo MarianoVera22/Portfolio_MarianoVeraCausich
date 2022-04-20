@@ -8,13 +8,9 @@ div{
     background-color: #f1faee; 
 }
 
-h3{
-    display: inline;
-}
-
 @media(min-width: 576px){
     
-    #experiencia-img{
+    #skills-img{
         max-width: 70%;
         border: 2px solid #1d3557;  
         border-radius: 5%;
@@ -23,11 +19,9 @@ h3{
 }
 @media (max-width:575px){
 
-    #experiencia-img{
+    #skills-img{
         width: 30%;
         border: 2px solid #1d3557;  
         border-radius: 5%;
     } 
-}   
-
-
+} 
