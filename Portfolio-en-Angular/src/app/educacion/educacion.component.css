@@ -7,18 +7,19 @@
 @media(min-width: 576px){
     
     #educacion-img{
-        max-width: 70%;
+        max-width: 10%;
         border: 2px solid #1d3557;  
         border-radius: 5%;
-
+        padding: 10px;
     }    
 }
 @media (max-width:575px){
 
     #educacion-img{
-        width: 30%;
+        width: 40%;
         border: 2px solid #1d3557;  
         border-radius: 5%;
+        padding: 10px;
     } 
 }   
 

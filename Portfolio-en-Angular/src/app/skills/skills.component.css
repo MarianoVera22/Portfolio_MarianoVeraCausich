@@ -6,22 +6,30 @@
 div{
     color: #1d3557;  
     background-color: #f1faee; 
+    /* border: 1px solid red; */
+}
+
+#titulos-circle{
+    font-size: larger;
+    color: #1d3557;
+    font-weight: bold;
 }
 
 @media(min-width: 576px){
     
     #skills-img{
-        max-width: 70%;
+        max-width: 10%;
         border: 2px solid #1d3557;  
         border-radius: 5%;
-
+        padding: 10px;
     }    
 }
 @media (max-width:575px){
 
     #skills-img{
-        width: 30%;
+        width: 40%;
         border: 2px solid #1d3557;  
         border-radius: 5%;
+        padding: 10px;
     } 
 } 
