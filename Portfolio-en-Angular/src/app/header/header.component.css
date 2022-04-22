@@ -7,11 +7,18 @@ div{
     width: 100px;
 }
 
+
+
 #logoSocial{
     float:right;
     margin: 15px 5px 0 5px;
     width: 30px;
 }
+
+#logoSocial:hover{
+    width: 35px;
+}
+
 
 #linkedin{
     float:right;
@@ -19,9 +26,23 @@ div{
     width: 57px;
 }
 
+#linkedin:hover{
+    width: 61px;
+}
+
 #login{
     float: right;
     margin: 10px 10px 0 10px;
     background-color: #f1faee;
     color: #1d3557;
+}
+
+#login:hover{
+    color: #f1faee;
+    background-color: #457b9d;
+}
+
+#login:visited,#login:active{
+    color: #1d3557;
+    background-color: #f1faee;
 }
