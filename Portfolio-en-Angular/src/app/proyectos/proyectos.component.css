@@ -1,5 +1,5 @@
 .row{
-    padding: 30px;
+    padding: 0 30px 0 30px;
     color: #1d3557;  
     background-color: #f1faee;
 }
@@ -8,7 +8,7 @@
     
     #proyectos-img{
         max-width: 8%;
-        border: 2px solid #1d3557;  
+        
         border-radius: 5%;
         padding: 10px;
     }    
@@ -17,7 +17,7 @@
 
     #proyectos-img{
         width: 40%;
-        border: 2px solid #1d3557;  
+          
         border-radius: 5%;
         padding: 10px;
     } 

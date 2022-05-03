@@ -1,48 +1,73 @@
-div{
-    background-color: #1d3557;
-    
+div {
+  background-color: #1d3557;
 }
 
-#logoAp{
-    width: 100px;
+#logoAp {
+  width: 100px;
+}
+
+#linkedin {
+  float: right;
+  margin: 10px 7px 2px 7px;
+  font-size: 170%;
+  color: #f1faee;
+}
+
+#linkedin:hover {
+  color: rgb(10, 102, 194);
+}
+
+#gmail {
+  float: right;
+  margin: 10px 7px 0 7px;
+  font-size: 170%;
+  color: #f1faee;
+}
+
+#gmail:hover{
+  color: rgb(214, 1, 1);
+}
+
+#github {
+  float: right;
+  margin: 10px 7px 0 7px;
+  font-size: 170%;
+  color: #f1faee;
+}
+
+#github:hover {
+  color: black;
+}
+
+#instagram {
+  float: right;
+  margin: 10px 7px 0 7px;
+  font-size: 170%;
+  color: #f1faee;
+}
+
+#instagram:hover {
+  background: -webkit-linear-gradient(#8b11a2, #e54b32,#ecbc58);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 
-
-#logoSocial{
-    float:right;
-    margin: 15px 5px 0 5px;
-    width: 30px;
+#login {
+  float: right;
+  margin: 10px 10px 0 10px;
+  background-color: #f1faee;
+  color: #1d3557;
 }
 
-#logoSocial:hover{
-    width: 35px;
+#login:hover {
+  color: #f1faee;
+  background-color: #06d6a0;
 }
 
-
-#linkedin{
-    float:right;
-    margin: 0 -10px 0px 0px;
-    width: 57px;
-}
-
-#linkedin:hover{
-    width: 61px;
-}
-
-#login{
-    float: right;
-    margin: 10px 10px 0 10px;
-    background-color: #f1faee;
-    color: #1d3557;
-}
-
-#login:hover{
-    color: #f1faee;
-    background-color: #457b9d;
-}
-
-#login:visited,#login:active{
-    color: #1d3557;
-    background-color: #f1faee;
+#login:visited,
+#login:active {
+  color: #1d3557;
+  background-color: #f1faee;
 }

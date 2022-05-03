@@ -1,80 +1,79 @@
-.row{
-    padding: 30px;
-    /* border: 1px solid red; */ 
+.row {
+  padding: 0px 30px 0 30px;
+  /* border: 1px solid red; */
 }
 
-div{
-    color: #1d3557;  
-    background-color: #f1faee; 
+div {
+  color: #1d3557;
+  background-color: #f1faee;
 }
 
-h3{
-    display: inline;
+h3 {
+  display: inline;
 }
 
-@media(min-width: 576px){
-    
-    #experiencia-img{
-        max-width: 8%;
-        border: 2px solid #1d3557;  
-        border-radius: 5%;
-        padding: 10px;
-    }    
+@media (min-width: 576px) {
+  #experiencia-img {
+    max-width: 8%;
+    border-radius: 5%;
+    padding: 10px;
+  }
 }
-@media (max-width:575px){
+@media (max-width: 575px) {
+  #experiencia-img {
+    width: 40%;
 
-    #experiencia-img{
-        width: 40%;
-        border: 2px solid #1d3557;  
-        border-radius: 5%;
-        padding: 10px;
-    } 
-}   
-
-#boton-edit{
-    color: #1d3557;
-    border: 1px solid #1d3557;
-    background-color: #f1faee;
-    border-radius: 50%;
-    font-size: 150%;
-    margin: 5%;
+    border-radius: 5%;
+    padding: 10px;
+  }
 }
 
-#boton-edit:hover{
-    color: #f1f1f1;
-    border: 1px solid #f1faee;
-    background-color: #457b9d;
-    margin: 5%;
+#boton-edit {
+  text-align: center;
+  color: #1d3557;
+  border: 1px solid #1d3557;
+  background-color: #f1faee;
+  border-radius: 50%;
+  font-size: 150%;
+  margin: 3%;
 }
 
-#boton-close{
-    color: #e63946;
-    border: 1px solid #e63946;
-    background-color: #f1faee;
-    border-radius: 50%;
-    font-size: 150%;
-    margin: 5%;
+#boton-edit:hover {
+  text-align: center;
+  color: #f1f1f1;
+  border: 1px solid #f1faee;
+  background-color: #457b9d;
+  margin: 3%;
 }
 
-#boton-close:hover{
-    color: #f1f1f1;
-    border: 1px solid #f1faee;
-    background-color: #e63946;
-    margin: 5%;
+#boton-close {
+  text-align: center;
+  color: #e63946;
+  border: 1px solid #e63946;
+  background-color: #f1faee;
+  border-radius: 50%;
+  font-size: 150%;
+  margin: 3%;
 }
 
-#boton-add{
-    color: #06d6a0;
-    border: 1px solid #06d6a0;
-    background-color: #f1faee;
-    border-radius: 50%;
-    font-size: 150%;
+#boton-close:hover {
+  text-align: center;
+  color: #f1f1f1;
+  border: 1px solid #f1faee;
+  background-color: #e63946;
+  margin: 3%;
 }
 
-#boton-add:hover{
-    color: #f1f1f1;
-    border: 1px solid #f1faee;
-    background-color: #06d6a0;
+#boton-add {
+  color: #06d6a0;
+  border: 1px solid #06d6a0;
+  background-color: #f1faee;
+  border-radius: 50%;
+  font-size: 150%;
 }
 
-
+#boton-add:hover {
+  color: #f1f1f1;
+  border: 1px solid #f1faee;
+  background-color: #06d6a0;
+}
