@@ -33,3 +33,49 @@ div{
         padding: 10px;
     } 
 } 
+
+#boton-edit{
+    color: #1d3557;
+    border: 1px solid #1d3557;
+    background-color: #f1faee;
+    border-radius: 50%;
+    font-size: 150%;
+    margin: 5%;
+}
+
+#boton-edit:hover{
+    color: #f1f1f1;
+    border: 1px solid #f1faee;
+    background-color: #457b9d;
+    margin: 5%;
+}
+
+#boton-close{
+    color: #e63946;
+    border: 1px solid #e63946;
+    background-color: #f1faee;
+    border-radius: 50%;
+    font-size: 150%;
+    margin: 5%;
+}
+
+#boton-close:hover{
+    color: #f1f1f1;
+    border: 1px solid #f1faee;
+    background-color: #e63946;
+    margin: 5%;
+}
+
+#boton-add{
+    color: #06d6a0;
+    border: 1px solid #06d6a0;
+    background-color: #f1faee;
+    border-radius: 50%;
+    font-size: 150%;
+}
+
+#boton-add:hover{
+    color: #f1f1f1;
+    border: 1px solid #f1faee;
+    background-color: #06d6a0;
+}
