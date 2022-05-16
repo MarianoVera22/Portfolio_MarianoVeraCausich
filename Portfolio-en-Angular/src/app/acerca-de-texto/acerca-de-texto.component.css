@@ -8,15 +8,43 @@ div{
     color: #1d3557;
 }
 
-@media(min-width: 576px){
+
+@media(min-width: 1300px){
     
     #acerca-mi{
-        max-width: 8%;
+        width: 10%;
         border-radius: 5%;
         padding: 10px;
     }    
 }
-@media (max-width:575px){
+
+@media(min-width: 769px) and (max-width:1299px){
+    
+    #acerca-mi{
+        width: 15%;
+        border-radius: 5%;
+        padding: 10px;
+    }    
+}
+
+@media(min-width: 769px) and (max-width:1023px){
+    
+    #acerca-mi{
+        width: 20%;
+        border-radius: 5%;
+        padding: 10px;
+    }    
+}
+
+@media(min-width: 469px) and (max-width:768px){
+    
+    #acerca-mi{
+        width: 25%;
+        border-radius: 5%;
+        padding: 10px;
+    }    
+}
+@media (max-width:468px){
 
     #acerca-mi{
         width: 40%;

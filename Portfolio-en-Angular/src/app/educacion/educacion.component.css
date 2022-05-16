@@ -4,24 +4,49 @@
     background-color: #f1faee;
 }
 
-@media(min-width: 576px){
+@media(min-width: 1300px){
     
     #educacion-img{
-        max-width: 8%;
-         
+        width: 10%;
         border-radius: 5%;
         padding: 10px;
     }    
-}
-@media (max-width:575px){
-
+  }
+  
+  @media(min-width: 769px) and (max-width:1299px){
+    
+    #educacion-img{
+        width: 15%;
+        border-radius: 5%;
+        padding: 10px;
+    }    
+  }
+  
+  @media(min-width: 769px) and (max-width:1023px){
+    
+    #educacion-img{
+        width: 20%;
+        border-radius: 5%;
+        padding: 10px;
+    }    
+  }
+  
+  @media(min-width: 469px) and (max-width:768px){
+    
+    #educacion-img{
+        width: 25%;
+        border-radius: 5%;
+        padding: 10px;
+    }    
+  }
+  @media (max-width:468px){
+  
     #educacion-img{
         width: 40%;
-       
         border-radius: 5%;
         padding: 10px;
     } 
-}   
+  }   
 
 #fecha{
     font-size: larger;

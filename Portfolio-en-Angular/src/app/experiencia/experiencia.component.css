@@ -12,20 +12,48 @@ h3 {
   display: inline;
 }
 
-@media (min-width: 576px) {
-  #experiencia-img {
-    max-width: 8%;
-    border-radius: 5%;
-    padding: 10px;
-  }
+@media(min-width: 1300px){
+    
+  #experiencia-img{
+      width: 10%;
+      border-radius: 5%;
+      padding: 10px;
+  }    
 }
-@media (max-width: 575px) {
-  #experiencia-img {
-    width: 40%;
 
-    border-radius: 5%;
-    padding: 10px;
-  }
+@media(min-width: 769px) and (max-width:1299px){
+  
+  #experiencia-img{
+      width: 15%;
+      border-radius: 5%;
+      padding: 10px;
+  }    
+}
+
+@media(min-width: 769px) and (max-width:1023px){
+  
+  #experiencia-img{
+      width: 20%;
+      border-radius: 5%;
+      padding: 10px;
+  }    
+}
+
+@media(min-width: 469px) and (max-width:768px){
+  
+  #experiencia-img{
+      width: 25%;
+      border-radius: 5%;
+      padding: 10px;
+  }    
+}
+@media (max-width:468px){
+
+  #experiencia-img{
+      width: 40%;
+      border-radius: 5%;
+      padding: 10px;
+  } 
 }
 
 #boton-edit {

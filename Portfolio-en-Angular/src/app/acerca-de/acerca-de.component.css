@@ -12,18 +12,43 @@ div{
     text-align: center;
 }
 
-@media(min-width: 576px){
+@media(min-width: 1300px){
     
     #fotoPerfil{
         max-width: 17%;
         border: 3px solid #1d3557;
- 
     }    
 }
-@media (max-width:575px){
+
+@media(min-width: 1024px) and (max-width: 1299px){
+    
+    #fotoPerfil{
+        max-width: 25%;
+        border: 3px solid #1d3557;
+    }    
+}
+
+@media(min-width: 769px) and (max-width: 1023px){
 
     #fotoPerfil{
-        width: 60%;
+        max-width: 30%;
+        border: 3px solid #1d3557;
+    } 
+
+}
+
+@media(max-width: 768px){
+
+    #fotoPerfil{
+        max-width: 35%;
+        border: 3px solid #1d3557;
+    } 
+
+}
+@media (max-width: 468px){
+
+    #fotoPerfil{
+        width: 70%;
         border: 3px solid #1d3557;
     } 
 }   

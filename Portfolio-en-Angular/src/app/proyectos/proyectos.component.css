@@ -4,24 +4,49 @@
     background-color: #f1faee;
 }
 
-@media(min-width: 576px){
+@media(min-width: 1300px){
     
     #proyectos-img{
-        max-width: 8%;
-        
+        width: 10%;
         border-radius: 5%;
         padding: 10px;
     }    
-}
-@media (max-width:575px){
-
+  }
+  
+  @media(min-width: 769px) and (max-width:1299px){
+    
+    #proyectos-img{
+        width: 15%;
+        border-radius: 5%;
+        padding: 10px;
+    }    
+  }
+  
+  @media(min-width: 769px) and (max-width:1023px){
+    
+    #proyectos-img{
+        width: 20%;
+        border-radius: 5%;
+        padding: 10px;
+    }    
+  }
+  
+  @media(min-width: 469px) and (max-width:768px){
+    
+    #proyectos-img{
+        width: 25%;
+        border-radius: 5%;
+        padding: 10px;
+    }    
+  }
+  @media (max-width:468px){
+  
     #proyectos-img{
         width: 40%;
-          
         border-radius: 5%;
         padding: 10px;
     } 
-}   
+  }  
 
 #boton-edit{
     color: #1d3557;
