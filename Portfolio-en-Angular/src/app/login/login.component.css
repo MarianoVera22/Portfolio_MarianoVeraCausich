@@ -1,0 +1,80 @@
+#box {
+  background-color: #1d3557;
+  color: #f1faee;
+  margin: auto;
+  width: 480px;
+  padding: 30px;
+  border-radius: 5%;
+  -webkit-box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.6); 
+box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.6);
+}
+
+#enviar {
+  background-color: #f1faee;
+  color: #1d3557;
+  text-decoration: none;
+}
+
+#enviar:hover {
+  color: #f1faee;
+  background-color: #06d6a0;
+  
+}
+
+#enviar:visited,
+#enviar:active {
+  color: #f1faee;
+  background-color: #67d8ba;
+  text-decoration: none;
+}
+
+#volver {
+  background-color: #f1faee;
+  color: #1d3557;
+  text-decoration: none;
+}
+
+#volver:hover {
+  color: #f1faee;
+  background-color: #e63946;
+  text-decoration: none;
+}
+
+#volver:visited,
+#volver:active {
+  color: #f1faee;
+  background-color: #e0616c;
+  text-decoration: none;
+}
+
+#logoAp {
+  width: 200px;
+}
+
+@media (max-width:520px){
+  #box {
+    background-color: #1d3557;
+    color: #f1faee;
+    margin: auto;
+    width: 400px;
+    padding: 30px;
+    border-radius: 5%;
+  }
+}
+
+@media (max-width:430px){
+  #box {
+    background-color: #1d3557;
+    color: #f1faee;
+    margin: auto;
+    width: 300px;
+    padding: 30px;
+    border-radius: 5%;
+  }
+}
+
+#cuerpo{
+  background-color: #457b9d;
+  background: #457b9d;
+  
+}
