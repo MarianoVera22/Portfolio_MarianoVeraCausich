@@ -74,7 +74,9 @@ box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.6);
 }
 
 #cuerpo{
-  background-color: #457b9d;
-  background: #457b9d;
+  background: #457B9D;
+background: -moz-linear-gradient(left, #457B9D 0%, #A8DADC 50%, #F1FAEE 100%);
+background: -webkit-linear-gradient(left, #457B9D 0%, #A8DADC 50%, #F1FAEE 100%);
+background: linear-gradient(to right, #457B9D 0%, #A8DADC 50%, #F1FAEE 100%);
   
 }
