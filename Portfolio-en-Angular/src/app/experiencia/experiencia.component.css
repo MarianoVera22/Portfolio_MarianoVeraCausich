@@ -105,3 +105,8 @@ h3 {
   border: 1px solid #f1faee;
   background-color: #06d6a0;
 }
+
+#fecha{
+  font-size: larger;
+  font-style: italic;
+}
