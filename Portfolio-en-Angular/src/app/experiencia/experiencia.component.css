@@ -15,7 +15,7 @@ h3 {
 @media(min-width: 1300px){
     
   #experiencia-img{
-      width: 10%;
+      width: 7%;
       border-radius: 5%;
       padding: 10px;
   }    
@@ -24,7 +24,7 @@ h3 {
 @media(min-width: 769px) and (max-width:1299px){
   
   #experiencia-img{
-      width: 15%;
+      width: 12%;
       border-radius: 5%;
       padding: 10px;
   }    
@@ -33,7 +33,7 @@ h3 {
 @media(min-width: 769px) and (max-width:1023px){
   
   #experiencia-img{
-      width: 20%;
+      width: 17%;
       border-radius: 5%;
       padding: 10px;
   }    
@@ -42,7 +42,7 @@ h3 {
 @media(min-width: 469px) and (max-width:768px){
   
   #experiencia-img{
-      width: 25%;
+      width: 22%;
       border-radius: 5%;
       padding: 10px;
   }    
@@ -50,7 +50,7 @@ h3 {
 @media (max-width:468px){
 
   #experiencia-img{
-      width: 40%;
+      width: 27%;
       border-radius: 5%;
       padding: 10px;
   } 
