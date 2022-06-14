@@ -99,11 +99,12 @@
     background-color: #06d6a0;
 }
 
-#certificado:hover{
-    text-decoration: none;
+
+#diploma{
+    color: #1d3557;
+    font-size: 150%;
 }
 
-#certificado{
-    text-decoration: none;
+#diploma:hover{
+    color: #457b9d;
 }
-
