@@ -1,5 +1,5 @@
 <div class="mt-5" id="cuerpo">
-  <form [formGroup]="form" id="box">
+  <form [formGroup]="form" id="box" #f="ngForm" (ngSubmit)="onLogin()" novalidate>
     <div class="text-center">
       <a
         href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
@@ -9,7 +9,7 @@
     </div>
     <h2><b>Iniciar sesión</b></h2>
     <div class="mb-2">
-      <label for="exampleInputEmail1" class="form-label"></label>
+      <label for="nombreUsuario" class="form-label"></label>
       <input
         type="email"
         [ngClass]="{
@@ -18,21 +18,24 @@
         }"
         class="form-control"
         formControlName="email"
-        id="exampleInputEmail1"
+        id="nombreUsuario"
+        name="nombreUsuario"
         aria-describedby="emailHelp"
         placeholder="Usuario"
+        [(ngModel)]="nombreUsuario"
+        required
       />
       <div *ngIf="Email?.errors && Email?.touched">
         <p *ngIf="Email?.hasError('required')" class="text-danger">
-          El email es requerido.
+          El usuario es requerido.
         </p>
-        <p *ngIf="Email?.hasError('email')" class="text-danger">
+        <!-- <p *ngIf="Email?.hasError('email')" class="text-danger">
           El formato debe ser tipo email.
-        </p>
+        </p> -->
       </div>
     </div>
     <div class="mb-2">
-      <label for="exampleInputPassword1" class="form-label"></label>
+      <label for="password2" class="form-label"></label>
       <input
         type="password"
         [ngClass]="{
@@ -41,15 +44,18 @@
         }"
         class="form-control"
         formControlName="password"
-        id="exampleInputPassword1"
+        id="password2"
+        name="password2"
         placeholder="Contraseña"
+        [(ngModel)]="password2" 
+        required
       />
       <div *ngIf="Password?.errors && Password?.touched">
         <p *ngIf="Password?.hasError('required')" class="text-danger">
           La contraseña es requerida.
         </p>
         <p *ngIf="Password?.hasError('minlength')" class="text-danger">
-          La contraseña debe tener al menos 8 caracteres.
+          La contraseña debe tener al menos 5 caracteres.
         </p>
       </div>
     </div>

@@ -1,8 +1,13 @@
 <header class="container-fluid fixed-top">
   <div class="row justify-content-center"> 
     <div class="col">
-      <a href="http://localhost:4200/login" style="text-decoration: none;">
+      <a href="http://localhost:4200/login" style="text-decoration: none;" *ngIf="!isLogged">
         <button id="login" class="btn" type="button"><b>Login</b></button>
+        <button id="login" class="btn" type="button" (click)="onLogOut()" *ngIf="isLogged"><b>Salir</b></button>
+      </a>
+
+      <a href="http://localhost:4200/" style="text-decoration: none;" *ngIf="isLogged" (click)="onLogOut()">
+        <button id="loginOut" class="btn" type="button"><b>Salir</b></button>
       </a>
 
       <a

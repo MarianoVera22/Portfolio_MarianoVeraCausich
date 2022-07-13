@@ -71,3 +71,21 @@ div{
   color: #f1faee;
   background-color: #67d8ba;
 }
+
+#loginOut {
+  float: right;
+  margin: 10px 10px 0 10px;
+  background-color: #f1faee;
+  color: #1d3557;
+}
+
+#loginOut:hover {
+  color: #f1faee;
+  background-color: #e63946;
+}
+
+#loginOut:visited,
+#loginOut:active {
+  color: #f1faee;
+  background-color: #e63946;
+}
