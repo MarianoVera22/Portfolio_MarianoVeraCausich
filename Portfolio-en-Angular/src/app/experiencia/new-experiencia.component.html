@@ -1,0 +1,40 @@
+<div class="mt-5" id="cuerpo">
+  <form (ngSubmit)="onCreate()" novalidate #f="ngForm" id="box">
+    <div class="form-group mb-2">
+      <label for="nombreE" class="form-label">Nombre de la empresa</label>
+      <input
+        type="text"
+        name="nombreE"
+        id="nombreE"
+        class="form-control"
+        [(ngModel)]="nombreE"
+        required
+      />
+    </div>
+    <div class="form-group mb-2">
+      <label for="fechaE" class="form-label">Fecha historica</label>
+      <input
+        type="text"
+        name="fechaE"
+        id="fechaE"
+        class="form-control"
+        [(ngModel)]="fechaE"
+        required
+      />
+    </div>
+    <div class="form-group mb-2">
+      <label for="descripcionE" class="form-label">Descripcion del puesto</label>
+      <textarea name="descripcionE" class="form-control" id="descripcionE" rows="6" [(ngModel)]="descripcionE" required ></textarea>
+      <!-- <input
+        type="text"
+        
+        
+        [(ngModel)]="descripcionE"
+        required
+      /> -->
+    </div>
+    <div class="text-center d-grid gap-2 mt-5">
+        <button id="agregar" class="btn btn-lg">Agregar</button>
+    </div>
+  </form>
+</div>

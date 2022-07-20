@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TokenService } from '../service/token.service';
 
 @Component({
   selector: 'app-acerca-de-texto',
@@ -9,7 +10,8 @@ export class AcercaDeTextoComponent implements OnInit {
   textoAcercaDeMi?: string;
   activo?: string;
 
-  constructor() {}
+  constructor(private tokenService: TokenService) {
+  }
 
   ngOnInit(): void {
     this.textoAcercaDeMi =
