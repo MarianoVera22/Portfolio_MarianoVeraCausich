@@ -1,37 +1,37 @@
-<div class="mt-5" id="cuerpo" *ngIf="expLab">
-  <form (ngSubmit)="onUpdate()" novalidate #f="ngForm" id="box">
+<div class="mt-5" id="cuerpo">
+  <form (ngSubmit)="onCreate()" novalidate #f="ngForm" id="box">
     <div class="form-group mb-2">
-      <label for="nombreE" class="form-label">Nombre de la empresa</label>
+      <label for="nombreEd" class="form-label">Titulo</label>
       <input
         type="text"
-        name="nombreE"
-        id="nombreE"
+        name="nombreEd"
+        id="nombreEd"
         class="form-control"
-        [(ngModel)]="expLab.nombreE"
+        [(ngModel)]="nombreEd"
         required
       />
     </div>
     <div class="form-group mb-2">
-      <label for="fechaE" class="form-label">Fecha historica</label>
+      <label for="fechaEd" class="form-label">Fecha historica</label>
       <input
         type="text"
-        name="fechaE"
-        id="fechaE"
+        name="fechaEd"
+        id="fechaEd"
         class="form-control"
-        [(ngModel)]="expLab.fechaE"
+        [(ngModel)]="fechaEd"
         required
       />
     </div>
     <div class="form-group mb-2">
-      <label for="descripcionE" class="form-label"
-        >Descripcion del puesto</label
+      <label for="descripcionEd" class="form-label"
+        >Descripcion del titulo</label
       >
       <textarea
-        name="descripcionE"
+        name="descripcionEd"
         class="form-control"
-        id="descripcionE"
+        id="descripcionEd"
         rows="6"
-        [(ngModel)]="expLab.descripcionE"
+        [(ngModel)]="descripcionEd"
         required
       ></textarea>
       <!-- <input
@@ -43,7 +43,7 @@
         /> -->
     </div>
     <div class="text-center d-grid gap-2 mt-5">
-      <button id="agregar" class="btn btn-lg"><b>Actualizar</b></button>
+      <button id="agregar" class="btn btn-lg"><b>Agregar</b></button>
     </div>
     <a href="http://localhost:4200/portfolio" style="text-decoration: none">
       <div class="text-center d-grid gap-2 mt-2">

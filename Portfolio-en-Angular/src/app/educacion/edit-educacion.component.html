@@ -1,0 +1,57 @@
+<div class="mt-5" id="cuerpo" *ngIf="edu">
+    <form (ngSubmit)="onUpdate()" novalidate #f="ngForm" id="box">
+      <div class="form-group mb-2">
+        <label for="nombreEd" class="form-label">Titulo</label>
+        <input
+          type="text"
+          name="nombreEd"
+          id="nombreEd"
+          class="form-control"
+          [(ngModel)]="edu.nombreEd"
+          required
+        />
+      </div>
+      <div class="form-group mb-2">
+        <label for="fechaEd" class="form-label">Fecha historica</label>
+        <input
+          type="text"
+          name="fechaEd"
+          id="fechaEd"
+          class="form-control"
+          [(ngModel)]="edu.fechaEd"
+          required
+        />
+      </div>
+      <div class="form-group mb-2">
+        <label for="descripcionEd" class="form-label"
+          >Descripcion del titulo</label
+        >
+        <textarea
+          name="descripcionEd"
+          class="form-control"
+          id="descripcionEd"
+          rows="6"
+          [(ngModel)]="edu.descripcionEd"
+          required
+        ></textarea>
+        <!-- <input
+            type="text"
+            
+            
+            [(ngModel)]="descripcionE"
+            required
+          /> -->
+      </div>
+      <div class="text-center d-grid gap-2 mt-5">
+        <button id="agregar" class="btn btn-lg"><b>Actualizar</b></button>
+      </div>
+      <a href="http://localhost:4200/portfolio" style="text-decoration: none">
+        <div class="text-center d-grid gap-2 mt-2">
+          <button id="volver" class="btn btn-lg" type="button">
+            <b>Salir</b>
+          </button>
+        </div>
+      </a>
+    </form>
+  </div>
+  

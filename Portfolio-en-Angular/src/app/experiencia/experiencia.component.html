@@ -17,7 +17,7 @@
         <h2 class="mb-4 text-center fs-1" id="titulo">Experiencia laboral</h2>
         
         
-        <ul *ngFor="let Experiencia of expe">
+        <ol style="list-style-type: disc;" *ngFor="let Experiencia of expe">
           <li class="mb-3">
             <!-- <h4>Profesor reparacion y armado de PC </h4> -->
             <h4>{{Experiencia.nombreE}}</h4>
@@ -38,7 +38,7 @@
               </button>
             </div>
           </li>
-        </ul>
+        </ol>
       </span>
     </div>
     

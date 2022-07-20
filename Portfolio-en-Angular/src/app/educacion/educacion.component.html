@@ -8,11 +8,13 @@
     <div class="col-1"></div>
     <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
       <h2 class="p-2 text-center fs-1">Educación</h2>
-      <ul>
+      <ol style="list-style-type: disc;" *ngFor="let Educacion of edu">
         <li class="mb-3">
-          <h4>Ingenieria Electrónica</h4>
-          <p id="fecha">(2014-presente)</p>
-          <p>Universidad Tecnológica Nacional - Facultad Regional Córdoba.</p>
+          <!-- <h4>Ingenieria Electrónica</h4> -->
+          <h4>{{Educacion.nombreEd}}</h4>
+          <!-- <p id="fecha">(2014-presente)</p> -->
+          <p id="fecha">({{Educacion.fechaEd}})</p>
+          <!-- <p>Universidad Tecnológica Nacional - Facultad Regional Córdoba.</p>
           <ul>
             <li>Cursando actualmente 6to año.</li>
             <li>90% de materias aprobadas.</li>
@@ -20,19 +22,20 @@
               Electivas elegidas: Visión por computadora, Fundamentos de
               róbotica móvil y Sistemas de comunicaciones III.
             </li>
-          </ul>
+          </ul> -->
+          <p>{{Educacion.descripcionEd}}</p>
 
           <div class="col-2">
-            <button type="button" hidden="true" class="btn" id="boton-edit">
+            <button type="button" *ngIf="isLogged" class="btn" id="boton-edit" routerLink="/editedu/{{Educacion.id}}">
               <i class="bi bi-pencil-fill"></i>
             </button>
-            <button type="button" hidden="true" class="btn" id="boton-close">
+            <button type="button" *ngIf="isLogged" class="btn" id="boton-close" (click)="delete(Educacion.id)">
               <i class="bi bi-x-lg"></i>
             </button>
           </div>
         </li>
 
-        <li class="mb-3">
+        <!-- <li class="mb-3">
           <h4>Argentina Programa</h4>
 
           <p id="fecha">(2021-presente)</p>
@@ -179,14 +182,14 @@
               <i class="bi bi-x-lg"></i>
             </button>
           </div>
-        </li>
-      </ul>
+        </li> -->
+      </ol>
     </div>
   </div>
 
   <div class="row text-center">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <button type="button" hidden="true" class="btn" id="boton-add">
+      <button type="button" *ngIf="isLogged" class="btn" id="boton-add" routerLink="/nuevaedu">
         <i class="bi bi-plus-lg"></i>
       </button>
     </div>
