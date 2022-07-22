@@ -17,15 +17,26 @@ public class dtoEducacion {
     @NotBlank
     private String fechaEd;
     @NotBlank
+    private String lugarEd;
+    @NotBlank
     private String descripcionEd;
 
     public dtoEducacion() {
     }
 
-    public dtoEducacion(String nombreEd, String fechaEd, String descripcionEd) {
+    public dtoEducacion(String nombreEd, String fechaEd, String descripcionEd, String lugarEd) {
         this.nombreEd = nombreEd;
         this.fechaEd = fechaEd;
+        this.lugarEd= lugarEd;
         this.descripcionEd = descripcionEd;
+    }
+
+    public String getLugarEd() {
+        return lugarEd;
+    }
+
+    public void setLugarEd(String lugarEd) {
+        this.lugarEd = lugarEd;
     }
 
     public String getNombreEd() {

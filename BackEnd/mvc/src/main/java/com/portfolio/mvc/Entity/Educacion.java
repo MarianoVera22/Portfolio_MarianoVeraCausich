@@ -20,15 +20,17 @@ public class Educacion {
     private int id;
     private String nombreEd;
     private String fechaEd;
+    private String lugarEd;
     private String descripcionEd;
 
     public Educacion() {
     }
 
-    public Educacion(String nombreEd, String fechaEd, String descripcionEd) {
+    public Educacion(String nombreEd, String fechaEd, String descripcionEd, String lugarEd) {
         this.nombreEd = nombreEd;
         this.fechaEd = fechaEd;
         this.descripcionEd = descripcionEd;
+        this.lugarEd=lugarEd;
     }
 
     public int getId() {
@@ -61,6 +63,14 @@ public class Educacion {
 
     public void setDescripcionEd(String descripcionEd) {
         this.descripcionEd = descripcionEd;
+    }
+
+    public String getLugarEd() {
+        return lugarEd;
+    }
+
+    public void setLugarEd(String lugarEd) {
+        this.lugarEd = lugarEd;
     }
     
     

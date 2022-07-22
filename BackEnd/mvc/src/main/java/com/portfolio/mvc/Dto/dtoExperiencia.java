@@ -17,14 +17,17 @@ public class dtoExperiencia {
     private String fechaE;
     @NotBlank
     private String descripcionE;
+    @NotBlank
+    private String lugarE;
 
     public dtoExperiencia() {
     }
 
-    public dtoExperiencia(String nombreE, String descripcionE, String fechaE) {
+    public dtoExperiencia(String nombreE, String descripcionE, String fechaE, String lugarE) {
         this.nombreE = nombreE;
         this.fechaE=fechaE;
         this.descripcionE = descripcionE;
+        this.lugarE= lugarE;
     }
 
     public String getNombreE() {
@@ -49,6 +52,14 @@ public class dtoExperiencia {
 
     public void setFechaE(String fechaE) {
         this.fechaE = fechaE;
+    }
+
+    public String getLugarE() {
+        return lugarE;
+    }
+
+    public void setLugarE(String lugarE) {
+        this.lugarE = lugarE;
     }
 
 }

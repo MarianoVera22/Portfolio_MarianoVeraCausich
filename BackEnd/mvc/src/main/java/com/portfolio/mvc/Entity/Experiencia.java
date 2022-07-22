@@ -20,16 +20,18 @@ public class Experiencia {
     private int id;
     private String nombreE;
     private String fechaE;
+    private String lugarE;
     private String descripcionE;
     
 
     public Experiencia() {
     }
 
-    public Experiencia(String nombreE, String descripcionE, String fechaE) {
+    public Experiencia(String nombreE, String descripcionE, String fechaE, String lugarE) {
         this.nombreE = nombreE;
         this.fechaE= fechaE;
         this.descripcionE = descripcionE;
+        this.lugarE=lugarE;
     }
 
     public int getId() {
@@ -62,6 +64,14 @@ public class Experiencia {
 
     public void setFechaE(String fechaE) {
         this.fechaE = fechaE;
+    }
+
+    public String getLugarE() {
+        return lugarE;
+    }
+
+    public void setLugarE(String lugarE) {
+        this.lugarE = lugarE;
     }
     
     

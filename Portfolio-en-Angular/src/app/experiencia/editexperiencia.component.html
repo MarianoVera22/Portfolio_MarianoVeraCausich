@@ -1,13 +1,24 @@
 <div class="mt-5" id="cuerpo" *ngIf="expLab">
   <form (ngSubmit)="onUpdate()" novalidate #f="ngForm" id="box">
     <div class="form-group mb-2">
-      <label for="nombreE" class="form-label">Nombre de la empresa</label>
+      <label for="nombreE" class="form-label">Puesto de trabajo</label>
       <input
         type="text"
         name="nombreE"
         id="nombreE"
         class="form-control"
         [(ngModel)]="expLab.nombreE"
+        required
+      />
+    </div>
+    <div class="form-group mb-2">
+      <label for="lugarE" class="form-label">Lugar, empresa o ente</label>
+      <input
+        type="text"
+        name="lugarE"
+        id="lugarE"
+        class="form-control"
+        [(ngModel)]="expLab.lugarE"
         required
       />
     </div>

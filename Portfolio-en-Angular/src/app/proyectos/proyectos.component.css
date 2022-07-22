@@ -93,3 +93,17 @@
     border: 1px solid #f1faee;
     background-color: #06d6a0;
 }
+
+#boton-github{
+    color:#f1faee;
+    border: 1px solid #1d3557;
+    background-color: #1d3557;
+    
+}
+
+#boton-github:hover{
+    color: white;
+    border: 1px solid #f1faee;
+    background-color: #457b9d;
+    
+}
